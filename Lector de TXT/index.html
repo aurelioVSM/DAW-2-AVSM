@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Selecciona archivos de texto</h1>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="archivos[]" multiple accept=".txt">
+        <input type="submit" value="Mostrar archivos">
+    </form>
+</body>
+</html>
